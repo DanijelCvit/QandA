@@ -11,7 +11,7 @@
 - Why doesn’t a class constructor have direct access to class methods, instead we have to use this:
 
 ```javascript
-class User {
+class User() {
   constructor() {
     this.method();
   }
@@ -43,7 +43,6 @@ name = "John"
 
 ```javascript
 class User() {
-
   constructor(){
   this.name = 'John';
   }
