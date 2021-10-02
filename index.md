@@ -1,13 +1,17 @@
-<h1 style = "text-align: center;background-color:black; color: white;">~ Q&A ~</h1>
+<h1 style = "text-align: center; background-color:black; color:white;">~ Q&A ~</h1>
 
 ## `>> Javascript week 1`
 
 ### Questions
 
+#### Scope
+
 - Difference between namespace and scope?
 - What scope pitfalls in javascript should we be aware of?
+
+#### this
+
 - **this** is context dependant, can you clarify and mention the biggest pitfalls?
-- What advantage do classes have over closures/ Constructor functions?
 - Why doesn’t a class constructor have direct access to class methods, instead we have to use this:
 
 ```javascript
@@ -20,6 +24,9 @@ class User() {
 }
 ```
 
+#### Class
+
+- What advantage do classes have over closures/ Constructor functions?
 - Static functions of classes work on the class themself. Does **User** in User.method() still call the class constructor or are we just accessing an internal function (method) of another function object (User)?
 - Why cant I declare a variable inside a class but outside its constructor:
 
