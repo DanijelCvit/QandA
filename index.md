@@ -10,7 +10,7 @@
 - What advantage do classes have over closures/ Constructor functions?
 - Why doesn’t a class constructor have direct access to class methods, instead we have to use this:
 
-```javascript
+```JavaScript
 class User() {
   constructor() {
     this.method();
