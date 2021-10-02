@@ -6,7 +6,7 @@
 
 - Difference between namespace and scope?
 - What scope pitfalls in javascript should we be aware of?
-- this is context dependant, can you clarify and mention the biggest pitfalls?
+- **this** is context dependant, can you clarify and mention the biggest pitfalls?
 - What advantage do classes have over closures/ Constructor functions?
 - Why doesn’t a class constructor have direct access to class methods, instead we have to use this:
 
@@ -20,7 +20,7 @@ class User() {
 }
 ```
 
-- Static functions of classes work on the class themself. Does User in User.method() still call the class constructor or are we just accessing an internal function (method) of another function object (User)?
+- Static functions of classes work on the class themself. Does **User** in User.method() still call the class constructor or are we just accessing an internal function (method) of another function object (User)?
 - Why cant I declare a variable inside a class but outside its constructor:
 
 ```javascript
@@ -31,7 +31,7 @@ constructor() {}
 }
 ```
 
-Is it only possible to create a global class variable (non accessible from outside the class) by using #private?
+Is it only possible to create a global class variable (non accessible from outside the class) by using **#private**?
 
 - How do the two following examples differ:
 
