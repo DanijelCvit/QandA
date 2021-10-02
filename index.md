@@ -38,7 +38,7 @@ constructor() {}
 }
 ```
 
-Is it only possible to create a global class variable (non accessible from outside the class) by using **#private**?
+- Is it only possible to create a global class variable (non accessible from outside the class) by using **#private**?
 
 - How do the two following examples differ:
 
