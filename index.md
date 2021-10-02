@@ -1,4 +1,4 @@
-<h1 style = "text-align: center;background-color:black; color: white;">~Q&A~</h1>
+<h1 style = "text-align: center;background-color:black; color: white;">~ Q&A ~</h1>
 
 ## `>> Javascript week 1`
 
