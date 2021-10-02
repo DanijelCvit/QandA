@@ -5,7 +5,7 @@
 ### Questions
 
 - Difference between namespace and scope?
-- What main scope pitfalls in javascript should we be aware of?
+- What scope pitfalls in javascript should we be aware of?
 - this is context dependant, can you clarify and mention the biggest pitfalls?
 - What advantage do classes have over closures/ Constructor functions?
 - Why doesn’t a class constructor have direct access to class methods, instead we have to use this:
