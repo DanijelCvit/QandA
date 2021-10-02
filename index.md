@@ -12,7 +12,7 @@
 #### this
 
 - **this** is context dependant, can you clarify and mention the biggest pitfalls?
-- Why doesn’t a class constructor have direct access to class methods, instead we have to use this:
+- Why doesn’t a class constructor have direct access to class methods, instead we have to use **this**:
 
 ```javascript
 class User() {
