@@ -55,3 +55,7 @@ class User() {
   }
 }
 ```
+
+#### Prototype
+
+- Javascript is said to be a prototype based language, so what is the difference between Object.prototype, [[Prototype]] and \_\_proto\_\_?
