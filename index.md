@@ -26,7 +26,7 @@ class User() {
 
 #### Class
 
-- What advantage do classes have over closures/ constructor functions?
+- What advantage do classes have over closures / constructor functions?
 - Static functions of classes work on the class themself. Does **User** in User.method() still call the class constructor or are we just accessing an internal function (method) of another function object (User)?
 - Why cant I declare a variable inside a class but outside its constructor:
 
