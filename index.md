@@ -19,11 +19,10 @@ Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 
 My code:
 
-```Javascript
+```js
 String.prototype.toJadenCase = function () {
-
   // Check for invalid strings
-   if(this === null || this === undefined || this === "") {
+  if (this === null || this === undefined || this === "") {
     return "";
   }
 
@@ -34,11 +33,10 @@ String.prototype.toJadenCase = function () {
   // Loop through the string and capitalize all letters
   // following a space
   for (let i = 1; i < this.length; i++) {
-
-    if(this.charAt(i-1) === " " && this.charAt(i) !== " "){
+    if (this.charAt(i - 1) === " " && this.charAt(i) !== " ") {
       char = this.charAt(i).toUpperCase();
     } else {
-       char = this.charAt(i);
+      char = this.charAt(i);
     }
 
     capitalStr += char;
