@@ -1,5 +1,50 @@
 <h1 style = "text-align: center; background-color:black; color:white;">~ Q<small>&</small>A ~</h1>
 
+## `>> Javascript week 3`
+
+### Exercise
+
+Jaden Smith, the son of Will Smith, is the star of films such as The Karate Kid (2010) and After Earth (2013). Jaden is also known for some of his philosophy that he delivers via Twitter. When writing on Twitter, he is known for almost always capitalizing every word. For simplicity, you'll have to capitalize each word, check out how contractions are expected to be in the example below.
+
+Your task is to convert strings to how they would be written by Jaden Smith. The strings are actual quotes from Jaden Smith, but they are not capitalized in the same way he originally typed them.
+
+Example:
+
+```
+Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
+Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
+```
+
+```Javascript
+String.prototype.toJadenCase = function () {
+
+  // Check for invalid strings
+   if(this === null || this === undefined || this === "") {
+    return "";
+  }
+
+  // Capitalize first letter
+  let capitalStr = this.charAt(0).toUpperCase();
+  let char = "";
+
+  // Loop through the string and capitalize all letters
+  // following a space
+  for (let i = 1; i < this.length; i++) {
+
+    if(this.charAt(i-1) === " " && this.charAt(i) !== " "){
+      char = this.charAt(i).toUpperCase();
+    } else {
+       char = this.charAt(i);
+    }
+
+    capitalStr += char;
+  }
+  return capitalStr;
+};
+```
+
+Run code [here](https://jsfiddle.net/Halfdan/g1mdk803/7/)
+
 ## `>> Javascript week 1`
 
 ### Questions

@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightcoral;
+}
+
+h1 {
+  display: block;
+  background-color: #ffe56a;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+h2 {
+  padding: 0 1rem;
+  background-color: #f0f0f0;
+}
+.content {
+  padding: 1rem 1rem;
+  background-color: white;
+}
