@@ -19,7 +19,7 @@ Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 
 My code:
 
-```js
+```javascript
 String.prototype.toJadenCase = function () {
   // Check for invalid strings
   if (this === null || this === undefined || this === "") {
